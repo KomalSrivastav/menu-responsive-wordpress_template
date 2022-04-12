@@ -1,0 +1,317 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ }
+ .top_bar{
+     background-color: #e38f1f;
+     h4{
+         padding-top: 10px;
+         text-align: center;
+         color:white;
+         letter-spacing:1px;
+         font-family: Arial, Helvetica, sans-serif;
+ 
+     }
+     .top_media{
+         text-align: center;
+         i{
+         color: white;
+     
+         }
+     }
+ }
+ 
+ .navbar-brand {
+     img{
+         margin-left: 180px;
+     }
+ }
+ .luxmi{
+     margin-right: 190px;
+ }
+ 
+ .nav-item{
+     margin-left: 15px;
+     .nav-link{
+         color:#8d8d8d;
+         font-weight: bold;
+         font-size: 17px;
+         letter-spacing: 1px;
+         font-family: Arial, Helvetica, sans-serif;
+ 
+     }
+ 
+ }
+ 
+ .banner{
+ padding-bottom: 30px;
+ box-shadow: 0 10px 20px 0 rgba(47, 50, 51, 0.15);
+ background-image:linear-gradient(rgba(131, 115, 115, 0.7),rgba(129, 110, 110, 0.7)),url('../images/banner1.png');
+ background-repeat: no-repeat;
+ height:500px;
+ position: relative;
+ .banner_text{
+     width:850px;
+     margin-left:250px;
+     margin-top: 170px;
+     position:absolute;
+     color: white;
+     h3{
+         font-weight: bold;
+         text-align:center;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size:40px;
+         color:#ffcb05;
+         width: 100%;
+         letter-spacing: 3px;
+  }
+   p{
+       text-align:justify;
+       font-size:16px;
+       padding:15px;
+       width:65%;
+       margin: 0px auto;
+       font-family: Arial, Helvetica, sans-serif;
+ 
+   }
+   button{
+     border-radius:15px;
+     color:black;
+    margin-left:200px;
+    background-color: white;
+   }
+ 
+     
+ }
+ }
+ 
+ 
+ 
+ 
+ .welcome{
+     h2{
+         color:#ed1f24;
+        letter-spacing: 1px;
+        font-family: Arial, Helvetica, sans-serif;
+ 
+     }
+     p{
+         letter-spacing: 1px;
+         font-size: 18px;
+         text-align:justify;
+         padding:20px;
+         font-weight:600px;
+         font-family: Arial, Helvetica, sans-serif;
+ 
+     }
+ }
+ 
+ 
+ // who we are
+ .text_who{
+     font-family: Arial, Helvetica, sans-serif;
+ 
+     }
+ 
+ .text_who_1{
+     font-family: Arial, Helvetica, sans-serif;
+ 
+     p{
+         text-align:justify;
+         width: 100%;
+         color:#a5a3a3;
+     }
+     
+ }
+ 
+ // growth student
+ 
+ .growth{
+     font-family: Arial, Helvetica, sans-serif;
+ 
+     p{
+         text-align:justify;
+         width: 100%;
+         color:#a5a3a3;
+     }
+ }
+ 
+ // principal
+ 
+ .principal{
+     width:100%;
+ 
+ }
+ .principal_text{
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+ h2{
+  letter-spacing: 1px;
+  text-align:center;
+  
+  }
+  b{
+     margin-left:50px;
+ }
+ }
+ 
+ .founder{
+     img{
+         text-align:center;
+     }
+ }
+ .founder_text{
+     width: 100%;
+     font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+     h2{
+         letter-spacing: 1px;
+         text-align:center;
+         
+         }
+         b{
+            margin-left:50px;
+        }
+ }
+ 
+ @media screen and (max-width: 992px) {
+     .navbar-brand {
+         img{
+             margin-left:0px;
+         }
+     }
+     .banner{
+         .banner_text{
+             margin-left: 0px;
+             width:100%;
+             margin-top: 100px;
+             p{
+                 padding:20px;
+                 font-size: 17px;
+                 width:100%;
+             }
+            button{
+                 margin-left:100px;
+                 }
+             h3{
+                 font-weight: bold;
+                 font-size:30px;
+             }
+         }
+     }
+   }
+ 
+ //   work pro knowledge
+ .work{
+     margin-left: 60px;
+ 
+ }
+ .knowledge{
+     margin-left: 60px;
+ }
+ .pro{
+     margin-left: 60px;
+ }
+ 
+ @media screen and (max-width:650px){
+     .work{
+         margin-left: 0px;
+     
+     }
+     .knowledge{
+         margin-left: 0px;
+     }
+     .pro{
+         margin-left: 0px;
+     }
+ 
+ }
+ @media screen and (max-width: 992px){
+     .work{
+         text-align:center;
+ 
+          }
+     .knowledge{
+         text-align: center;
+         padding-top: 20px;
+     }
+     .pro{
+         text-align: center;
+         padding-top: 20px;
+     }
+     .welcome{
+         h2{
+             font-size: 14px;
+         }
+         p{
+             font-size: 16px;
+             padding:5px;
+         }
+     }
+ }
+ 
+ @media screen and (max-width: 992px){
+     .small_col{
+         flex-direction:column-reverse;
+     }
+     .founder_row{
+         flex-direction:column-reverse; 
+     }
+     
+ }
+ 
+ @media screen and (width: 768px){
+     .small_col{
+         flex-direction:row-reverse;
+         img{
+             padding-left: 15px;
+         }
+     }
+     .founder_row{
+         flex-direction:row-reverse; 
+     }
+     
+ }
+ 
+ 
+ //footer
+ 
+ .footer{
+     background-color: #e38f1f;
+     font-family: Arial, Helvetica, sans-serif;
+ 
+     .about{
+         h2{
+         color: white;
+         font-size: 20px;
+         font-weight: bold;
+         margin-left: 20px;
+         }
+ 
+         ul{
+             li{
+                 list-style: none;
+                 padding-top:8px;
+                 a{
+                     text-decoration: none;
+                     color:black;
+                     letter-spacing: 1px;
+                 }
+             }
+         }
+     }
+     
+ }
+ 
+ .hr{
+     //background-color: #8c7dfe;
+     color:#857ad5;
+ }
+ @media screen and (max-width: 992px){
+     .about{
+         text-align: center;
+         padding-top: 20px;
+     }
+ }
